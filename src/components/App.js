@@ -10,8 +10,8 @@ const App = () => {
   const [videos, search] = userVideos('tree');
 
   useEffect(() => {
-    setSelectedVideo(videos[0])
-  }, [videos])
+    setSelectedVideo(videos[0]);
+  }, [videos]);
 
   return (
     <div className="ui container">
